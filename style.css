@@ -1,0 +1,26 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+.container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.logo {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px #ff597e;
+}
